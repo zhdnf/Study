@@ -3,12 +3,10 @@
 ## rsync实现的3种方式
 
 1. 本地方式
-``` 
-    Local:  rsync [OPTION...] SRC... [DEST] ```
+``` Local:  rsync [OPTION...] SRC... [DEST] ```
  
 2. 远程shell
-``` 
-    Access via remote shell:
+``` Access via remote shell:
 	Pull: rsync [OPTION...] [USER@]HOST:SRC... [DEST]
 	Push: rsync [OPTION...] SRC... [USER@]HOST:DEST ```
   
